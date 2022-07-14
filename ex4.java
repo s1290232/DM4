@@ -1,6 +1,8 @@
 import java.util.Random;
-import java.util.Scanner;
-public class DM4_1 {
+
+import java.util.Scanne
+
+public class DM4 {
 	public static void main(String[] args) {
 		Random r = new Random();
 		int ram;
@@ -28,6 +30,8 @@ public class DM4_1 {
 			}
 		}
 		System.out.println("Heads: "+cntH+", Tails: "+cntT);
+		if (cntH > cntT) System.out.println("You won!");
+		else System.out.println("You lost...");
 	}
 
 }
